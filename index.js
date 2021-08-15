@@ -31,7 +31,7 @@ const questions = [
   name: 'theLearn',
   message:  'What did you learn?',},
   { type: 'input',
-  name: 'thegithub',
+  name: 'theGithub',
   message:  'What is your githup username?',},
   { type: 'input',
   name: 'theEmail',

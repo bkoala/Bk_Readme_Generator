@@ -76,12 +76,13 @@ function generateMarkdown(data) {
   [View Full license information ](${data.liCense[1]})
 
   ## How to contribute
-   We are part of the contributor code of conduct. 
-   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+   We obide by the contributor code of conduct.&nbsp;
+   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)&nbsp;
    Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.
-  ## Questions
-    * Github Profile: https://github.com/${data.gitHub}
-    * Contact Email: mailto:${data.Email}
+  
+   ## Questions
+    * Github Profile: https://github.com/${data.theGitHub}
+    * Contact Email: mailto:${data.theEmail}
 `;
 }
 
