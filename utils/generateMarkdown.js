@@ -3,15 +3,15 @@
 function renderLicenseBadge(license) {
   if (license === "agplv3"){
     return `
-    [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)`;
- }else if (license === "gnu gplv3") { return `[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+    [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)`;
+ }else if (license === "gnu gplv3") { return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
  ` ;}
-  else if (license === "gnu lgplv3"){return `https://choosealicense.com/licenses/lgpl-3.0/`;}
-  else if (license === "mozilla public license 2.0"){return `https://choosealicense.com/licenses/mpl-2.0/`;}
-  else if (license === "apache license 2.0"){return `https://choosealicense.com/licenses/apache-2.0/`;}
-  else if (license === "mit license"){return `https://choosealicense.com/licenses/mit/`;}
-  else if (license === "boost software license 1.0"){return `https://choosealicense.com/licenses/bsl-1.0/`;}
-  else if (license === "the unlicense"){return `https://choosealicense.com/licenses/unlicense/`;}
+  else if (license === "gnu lgplv3"){return `![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)`;}
+  else if (license === "mozilla public license 2.0"){return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;}
+  else if (license === "apache license 2.0"){return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;}
+  else if (license === "mit license"){return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;}
+  else if (license === "boost software license 1.0"){return `[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;}
+  else if (license === "the unlicense"){return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;}
   else return "";
 
 }
@@ -55,13 +55,13 @@ function generateMarkdown(data) {
   ${data.liCense[2]}
   ## Description
       ${data.descriPtion}
-      *Motivation:* 
+      * Motivation: 
       ${data.motiVation}
-      *The Why:* 
+      * The Why: 
       ${data.theWhy}
-      *Problem:*
+      * Problem:
      ${data.theProblem}
-      *Lesson:*
+      * Lesson:
     ${data.theLearn}
   ## Installation
      The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
@@ -76,10 +76,12 @@ function generateMarkdown(data) {
   [View Full license information ](${data.liCense[1]})
 
   ## How to contribute
-   We are part of the contributor code of conduct. [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+   We are part of the contributor code of conduct. 
+   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
    Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.
-   ## Questions
-    
+  ## Questions
+    * Github Profile: https://github.com/${data.gitHub}
+    * Contact Email : mailto:${data.Email}
 `;
 }
 
