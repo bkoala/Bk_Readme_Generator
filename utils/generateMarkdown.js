@@ -81,7 +81,7 @@ function generateMarkdown(data) {
    Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.
   ## Questions
     * Github Profile: https://github.com/${data.gitHub}
-    * Contact Email : mailto:${data.Email}
+    * Contact Email: mailto:${data.Email}
 `;
 }
 
