@@ -53,16 +53,23 @@ function generateMarkdown(data) {
   
   return `# ${data.tiTle}
   ${data.liCense[2]}
+
   ## Description
+
       ${data.descriPtion}
+
       * Motivation: 
       ${data.motiVation}
+
       * The Why: 
       ${data.theWhy}
+
       * Problem:
-     ${data.theProblem}
+      ${data.theProblem}
+
       * Lesson:
-    ${data.theLearn}
+      ${data.theLearn}
+
   ## Installation
      The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
     
@@ -71,18 +78,19 @@ function generateMarkdown(data) {
     Here are screen shots or generated Readme files with different inputs
   
   ## License
-   ${data.liCense[0]}
+   ${data.liCense[0]}  
 
   [View Full license information ](${data.liCense[1]})
 
-  ## How to contribute
-   We obide by the contributor code of conduct.&nbsp;
-   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)&nbsp;
-   Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.
+  ## How to contribute  
+   We obide by the contributor code of conduct.  
+   [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
+   Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.   
   
    ## Questions
-    * Github Profile: https://github.com/${data.theGitHub}
-    * Contact Email: mailto:${data.theEmail}
+    * Github Profile:[https://github.com/${data.theGithub}] (https://github.com/${data.theGithub})  
+    
+   * Contact Email: ${data.theEmail}
 `;
 }
 
