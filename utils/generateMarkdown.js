@@ -52,28 +52,32 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   
   return `# ${data.tiTle}
-  ${data.liCense[2]}
+${data.liCense[2]}
 
-  ## Description
+## Description
 
-      ${data.descriPtion}
+${data.descriPtion}
 
-      * Motivation: 
-      ${data.motiVation}
+*  Motivation:      
 
-      * The Why: 
-      ${data.theWhy}
+${data.motiVation}
 
-      * Problem:
-      ${data.theProblem}
+* The Why: 
 
-      * Lesson:
-      ${data.theLearn}
+${data.theWhy}
 
-  ## Installation
-     The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
+*  Problem:
+      
+${data.theProblem}
+
+*  Lesson:
+
+${data.theLearn}
+
+## Installation
+The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
     
-  ## Usage
+## Usage
     The user answers questions to describe his read me files and a readme file is generated and put in thee genReadMe folder
     Here are screen shots or generated Readme files with different inputs
   
@@ -83,12 +87,14 @@ function generateMarkdown(data) {
   [View Full license information ](${data.liCense[1]})
 
   ## How to contribute  
-   We obide by the contributor code of conduct.  
+   We obide by the contributor code of conduct. 
+
    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
    Please feel free to send us any corrections or fixes that you find when running our application. Our contact information is shown below.   
   
-   ## Questions
-    * Github Profile:[https://github.com/${data.theGithub}] (https://github.com/${data.theGithub})  
+  ## Questions
+
+  * Github Profile:[https://github.com/${data.theGithub}](https://github.com/${data.theGithub})  
     
    * Contact Email: ${data.theEmail}
 `;
