@@ -1,32 +1,32 @@
-# dffaf
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Weather Dashboard
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-dafdas
+The application uses the OpenWeather One Call API API to retrieve weather data for cities. It stores informations of list of cities of past searches that the user can click to access information for that city.
 
 *  Motivation:      
 
-   dafa
+   To provide weather data to users
 
 * The Why: 
 
-   dafa
+   To help users
 
 *  Problem:
       
-   dafa
+   Lack of available weather information to travel
 
 *  Lesson:
 
-   dasfasd
+   To use apis to provide weather data
 
 ## Table of Contents
    1. [Installation](##Installation)
    2. [Usage](##Usage)
-   3. [License](#License)
-   4. [How to Contribute](## How to contribute)
-   5. [Questions](## Questions)
+   3. [License](##License)
+   4. [Contribute](##Contribute)
+   5. [Questions](##Questions)
 
 ## Installation
     The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
@@ -36,11 +36,11 @@ dafdas
     Here are screen shots or generated Readme files with different inputs
   
 ## License
-    A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.  
+    A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.  
 
-    [View Full license information ](https://choosealicense.com/licenses/apache-2.0/)
+    [View Full license information ](https://choosealicense.com/licenses/mit/)
 
-## How to contribute  
+## Contribute  
     We obide by the contributor code of conduct. 
 
     [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
@@ -50,4 +50,4 @@ dafdas
 
   * Github Profile:[https://github.com/bkoala](https://github.com/bkoala)  
     
-   * Contact Email: b@homtail.com
+   * Contact Email: ben@hotmail.com

@@ -77,9 +77,9 @@ ${data.descriPtion}
 ## Table of Contents
    1. [Installation](##Installation)
    2. [Usage](##Usage)
-   3. [License](#License)
-   4. [How to Contribute](## How to contribute)
-   5. [Questions](## Questions)
+   3. [License](##License)
+   4. [Contribute](##Contribute)
+   5. [Questions](##Questions)
 
 ## Installation
     The readme generator requires some files that are provided by installing node modules and package.json in the folder where the index.js file is located. Run " npm init" and "npm install" in the folder where you want run the readme generator.
@@ -93,7 +93,7 @@ ${data.descriPtion}
 
     [View Full license information ](${data.liCense[1]})
 
-## How to contribute  
+## Contribute  
     We obide by the contributor code of conduct. 
 
     [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
