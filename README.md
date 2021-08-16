@@ -11,6 +11,6 @@ The questions are implemented using the [Inquirer package](https://www.npmjs.com
 
 Application Page Link :https://bkoala.github.io/Bk_Readme_Generator/
 
-Application Screen Shot :![Screenshot](Readme_screenshot.png)
-
 Demo Video Link: https://drive.google.com/file/d/1Hd5ADiBKTH7OdPXMqznHgB5J7ccJum9h/view
+
+Application Screen Shot :![Screenshot](Readme_screenshot.png)
